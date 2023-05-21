@@ -1,12 +1,42 @@
+.main-header{
+    margin-bottom: 5px;
+}
 h1{
     text-align:center;
+    text-decoration: solid black;
+    text-decoration-line: underline;
+    margin-bottom: 0%;
 }
-.content-1{
-    width:350px;
-    margin:auto
+.homepage-content{
+    text-align:center;
+    margin:auto;
+    border:red;
+    border-style:groove;
+    padding:0px;
+    width:300px;
 }
-.paragraph-1 {
-    background:black;
-    color:white; 
-    width:350px;  
+.welcome-paragraph{
+    margin:0%;
+}
+.content{
+    text-align:center;
+    margin:auto;
+    border:red;
+    border-style:groove;
+    padding:0px;
+    width:50%;
+}
+.paragraph{
+    margin:0%;
+}
+.link-container {
+    text-align:center;
+}
+.image{
+    display:grid;
+    place-items:center;
+    margin:auto;
+}
+.paragraph-1{
+    margin:0%;
 }
