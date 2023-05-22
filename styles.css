@@ -10,13 +10,19 @@ h1{
 .homepage-content{
     text-align:center;
     margin:auto;
-    border:red;
+    border:solid black;
     border-style:groove;
     padding:0px;
     width:300px;
 }
 .welcome-paragraph{
     margin:0%;
+    color:lightgray
+}
+#homepage-background{
+    background-image:url(/images/homepagebackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .content{
     text-align:center;
@@ -31,6 +37,7 @@ h1{
 }
 .link-container {
     text-align:center;
+    color:lightgray
 }
 .image{
     display:grid;
@@ -39,4 +46,7 @@ h1{
 }
 .paragraph-1{
     margin:0%;
+}
+.a{
+    color:yellow
 }
